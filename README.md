@@ -10,4 +10,4 @@ Momentum - This feature keeps track of teams last 10 games, this is aimed to des
 
 When training my model I did not just stick with one model. I used a Tabular-Foundation Model (TabICLv2) as a classifer to try and predict just wins and losses, which was ensembled with a XGBoost and LightGBM model that was predicting point differential. By seperating these into two different predictors the aim was to releive some stress from the models so that accuracy could be improved.
 
-I am impressed with how the model has trained, the tournament is not yet finished so I am unsure of how the model will score, however running against the data from tournament in 2025, my submission would have been a top300 submission in the competition
+I ended up finishing 1810 out of 3462, a result I am very happy with for my first competition entry.
